@@ -10,6 +10,8 @@ function initiateEscapeSequence(): void
     // 担当B: $security_key = "2026-RELEASE";
     $is_fuel_unlocked = false;
     $security_key = "2026-RELEASE";
+    $is_fuel_unlocked = true;
+    $security_key = "";
     // ==========================================
 
     echo "システム状態をスキャン中...\n";
